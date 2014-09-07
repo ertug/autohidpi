@@ -6,28 +6,28 @@
   "author": "",
   "license": "MPL 2.0",
   "version": "0.1",
-	"preferences": [{
-        "name": "screenWidth",
-        "title": "HiDPI Screen Width",
-        "description": "Automatically enable HiDPI mode when active screen width matches this value (pixels)",
-        "type": "integer",
-        "value": 2880
-    },
-	{
-		"name": "pixelRatio",
-		"title": "Pixel Ratio",
-		"description": "Pixel ratio to use when HiDPI mode is enabled",
-		"type": "menulist",
-		"value": 0,
-		"options": [
-			{
-				"value": "0",
-				"label": "1.5x"
-			},
-			{
-				"value": "1",
-				"label": "2x"
-			}
-		]
-	}]
+  "preferences": [{
+    "name": "screenWidth",
+    "title": "HiDPI Screen Width",
+    "description": "Automatically enable HiDPI mode when active screen width is greater than this value (pixels)",
+    "type": "integer",
+    "value": 2880
+  },
+  {
+    "name": "pixelRatio",
+    "title": "Pixel Ratio",
+    "description": "Pixel ratio to use when HiDPI mode is enabled",
+    "type": "menulist",
+    "value": 0,
+    "options": [
+      {
+        "value": "0",
+        "label": "1.5x"
+      },
+      {
+        "value": "1",
+        "label": "2x"
+      }
+    ]
+  }]
 }
