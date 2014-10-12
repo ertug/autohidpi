@@ -9,7 +9,7 @@
   "preferences": [{
     "name": "screenWidth",
     "title": "HiDPI Screen Width",
-    "description": "Automatically enable HiDPI mode when active screen width is greater than this value (pixels)",
+    "description": "Automatically enable HiDPI mode when active screen width is at least this value (pixels)",
     "type": "integer",
     "value": 2880
   },
