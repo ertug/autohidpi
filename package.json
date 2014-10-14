@@ -5,7 +5,7 @@
   "description": "Automatically enable and disable HiDPI (a.k.a. Retina) mode (layout.css.devPixelsPerPx) for multiple monitor setups.",
   "author": "",
   "license": "MPL 2.0",
-  "version": "1.0",
+  "version": "1.1",
   "preferences": [{
     "name": "screenWidth",
     "title": "HiDPI Screen Width",
