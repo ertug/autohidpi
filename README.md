@@ -7,3 +7,4 @@ https://addons.mozilla.org/en-US/firefox/addon/autohidpi/
 ## Contributors
 
 * Alexander Early
+* Arnout Engelen
