@@ -5,7 +5,7 @@
   "description": "Automatically enable and disable HiDPI (a.k.a. Retina) mode (layout.css.devPixelsPerPx) for multiple monitor setups.",
   "author": "",
   "license": "MPL 2.0",
-  "version": "1.1",
+  "version": "1.2",
   "preferences": [{
     "name": "screenWidth",
     "title": "HiDPI Screen Width",
@@ -16,18 +16,8 @@
   {
     "name": "pixelRatio",
     "title": "Pixel Ratio",
-    "description": "Pixel ratio to use when HiDPI mode is enabled",
-    "type": "menulist",
-    "value": 0,
-    "options": [
-      {
-        "value": "0",
-        "label": "1.5x"
-      },
-      {
-        "value": "1",
-        "label": "2x"
-      }
-    ]
+    "description": "Pixel ratio to use when HiDPI mode is enabled (for 1.75 enter 175)",
+    "type": "integer",
+    "value": 175
   }]
 }
