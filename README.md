@@ -8,3 +8,4 @@ https://addons.mozilla.org/en-US/firefox/addon/autohidpi/
 
 * Alexander Early
 * Arnout Engelen
+* Enrico Carlesso
