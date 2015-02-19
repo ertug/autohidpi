@@ -8,16 +8,16 @@
   "version": "1.2",
   "preferences": [{
     "name": "screenWidth",
-    "title": "HiDPI Screen Width",
-    "description": "Automatically enable HiDPI mode when active screen width is at least this value (pixels)",
+    "title": "HiDPI Screen Width (Pixels)",
+    "description": "HiDPI mode is enabled when active screen width is at least this value",
     "type": "integer",
     "value": 2880
   },
   {
-    "name": "pixelRatio",
+    "name": "pixelRatioStr",
     "title": "Pixel Ratio",
-    "description": "Pixel ratio to use when HiDPI mode is enabled (for 1.75 enter 175)",
-    "type": "integer",
-    "value": 175
+    "description": "Pixel ratio to use when HiDPI mode is enabled (for example, 1.5, 1.75, 2 etc.)",
+    "type": "string",
+    "value": "1.5"
   }]
 }
