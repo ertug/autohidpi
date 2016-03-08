@@ -1,7 +1,7 @@
 {
   "name": "autohidpi",
   "title": "AutoHiDPI",
-  "id": "jid1-ylDsmQrKspNYVg",
+  "id": "autohidpi@jid1-ylDsmQrKspNYVg",
   "description": "Automatically enable and disable HiDPI (a.k.a. Retina) mode (layout.css.devPixelsPerPx) for multiple monitor setups.",
   "author": "",
   "license": "MPL 2.0",
