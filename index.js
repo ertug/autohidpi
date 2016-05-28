@@ -8,8 +8,8 @@ const SLACK = 128;
 var currentPixelRatio = null;
 
 function getActiveScreenWidth() {
-  // changing devPixelsPerPx messes with screen.width, we correct it here
   var width = windowUtils.getFocusedWindow().screen.width;
+  // changing devPixelsPerPx messes with screen.width, we correct it here
   return width * (currentPixelRatio ? currentPixelRatio : 1);
 }
 
