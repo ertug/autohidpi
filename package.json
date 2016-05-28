@@ -1,24 +1,23 @@
 {
   "name": "autohidpi",
   "title": "AutoHiDPI",
-  "id": "autohidpi@jid1-ylDsmQrKspNYVg",
+  "id": "jid1-ylDsmQrKspNYVg@autohidpi",
   "description": "Automatically enable and disable HiDPI (a.k.a. Retina) mode (layout.css.devPixelsPerPx) for multiple monitor setups.",
-  "author": "",
+  "author": "Ertug Karamatli",
   "license": "MPL 2.0",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "permissions": {"private-browsing": true},
-  "main": "lib/main.js",
   "preferences": [{
     "name": "screenWidth",
     "title": "HiDPI Screen Width (Pixels)",
-    "description": "HiDPI mode is enabled when active screen width is at least this value",
+    "description": "HiDPI mode is enabled when active screen width is at least this value. For example, if you have one Retina monitor (2880x1800) and one HD monitor (1920x1080), you should enter 2880.",
     "type": "integer",
     "value": 2880
   },
   {
     "name": "pixelRatioStr",
     "title": "Pixel Ratio",
-    "description": "Pixel ratio to use when HiDPI mode is enabled (for example, 1.5, 1.75, 2 etc.)",
+    "description": "Enter the pixel ratio to use when HiDPI mode is enabled. For example, you can try 1.25, 1.5, 1.75, 2 etc.",
     "type": "string",
     "value": "1.5"
   }]
