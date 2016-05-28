@@ -10,4 +10,5 @@ https://addons.mozilla.org/en-US/firefox/addon/autohidpi/
 * Arnout Engelen
 * Enrico Carlesso
 * Hermann Mayer
+* Jason Uher
 * Kevin Azzam
