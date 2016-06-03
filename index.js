@@ -118,22 +118,23 @@ function update(force) {
     console.log('active screen changed', screenId);
 
     resetDevPixelsPerPx();
+
+    var pixelRatio = loadPixelRatio(screen);
+    console.log('loaded pixelRatio', pixelRatio);
+
     var event = {
+      // populate screen geometry before changing devPixelsPerPx
       screen: {
         width: screen.width,
         height: screen.height,
         left: screen.left,
         top: screen.top
       },
-      pixelRatio: null
+      pixelRatio: pixelRatio
     };
-
-    var pixelRatio = loadPixelRatio(screen);
-    console.log('loaded pixelRatio', pixelRatio);
 
     setDevPixelsPerPx(pixelRatio);
 
-    event.pixelRatio = pixelRatio;
     panel.port.emit('update', event);
 
     lastScreenId = buildScreenId(screen);
