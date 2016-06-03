@@ -1,0 +1,11 @@
+.*
+*
+!/data/**
+!/package.json
+!/LICENCE
+!/bootstrap.js
+!/install.rdf
+!/index.js
+
+*~
+\#*

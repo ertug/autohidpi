@@ -5,6 +5,6 @@
   "description": "Set a different pixel ratio (layout.css.devPixelsPerPx) for each of your screens. Useful for mixed DPI multi-monitor setups. For example, you can use it if you have one HiDPI (Retina) screen and one lower DPI HD screen.",
   "author": "Ertug Karamatli",
   "license": "MPL 2.0",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "permissions": {"private-browsing": true}
 }
