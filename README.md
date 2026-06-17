@@ -5,7 +5,8 @@
 
 If you used two monitors with different pixel densities — say a sharp HiDPI (Retina) screen next to an older, lower-resolution one — Firefox would look correctly sized on one but too big or too small on the other. This add-on fixed that by automatically adjusting Firefox's scaling to match whichever screen its window was on, so it always looked right. (Under the hood, it set Firefox's `layout.css.devPixelsPerPx` value per screen.)
 
-![AutoHiDPI panel](screenshot.png)
+<img src="screenshot.png" alt="AutoHiDPI panel" width="309">
+
 
 At its peak in 2016 it had around 1,500 average daily users, with [27 user reviews and a rating of roughly 4.4](https://web.archive.org/web/20181102030736/https://addons.mozilla.org/en-US/firefox/addon/autohidpi/), before it was removed from addons.mozilla.org in 2018.
 
